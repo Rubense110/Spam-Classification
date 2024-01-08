@@ -1,5 +1,6 @@
 module CompruebaArbol
-    (esArbolDecision
+    (esArbolDecision,
+    contarApariciones
     ) where
 
 import Data.List

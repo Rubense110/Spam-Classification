@@ -53,7 +53,7 @@
 module DecissionTree
     (Feature,
      Class,
-     DecissionTree,
+     DecissionTree (..),
      nHojas
     ) where
 
@@ -75,3 +75,5 @@ data DecissionTree = L Class
 nHojas :: DecissionTree -> Int
 nHojas (L _)     = 1
 nHojas (N _ (i,d)) = nHojas i + nHojas d
+
+--a = N (3,0.8) ((L 2),(L 1)) 
