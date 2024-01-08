@@ -47,7 +47,6 @@
 --  class       class 
 
 -- tendremos una dupla para los nodos y valores para las hojas, representando estas las clases.
--- 87-y+CB5QU/9bxd
 -- ---------------------------------------------------------------------
 
 module DecissionTree
