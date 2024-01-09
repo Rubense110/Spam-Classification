@@ -47,6 +47,7 @@
 --  class       class 
 
 -- tendremos una dupla para los nodos y valores para las hojas, representando estas las clases.
+-- 87-y+CB5QU/9bxd
 -- ---------------------------------------------------------------------
 
 module DecissionTree
@@ -65,7 +66,7 @@ type Class = Int
 
 -- Deficinicion del tipo de dato arbol de decision
 data DecissionTree = L Class
-                   | N Feature (DecissionTree, DecissionTree)
+                   | N Feature DecissionTree, DecissionTree
                    deriving (Show, Eq)
 
                    -- N 9 (N 3 (H 2) (H 4)) (H 7) 
